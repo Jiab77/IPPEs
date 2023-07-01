@@ -33,6 +33,32 @@ __HELL NO!!__
 
 That's why I've made this project, to allow end-users to be able to install their old printers without having to pass a complete night to debug everything and finally make it work without really knowing how 😅
 
+## Required tools
+
+In order to be able to run the script or simply debug things by yourself, you will need the following commands:
+
+* `lpstat`
+* `lpinfo`
+* `lpadmin`
+
+Optionally, if you have `avahi` enabled and want to use it, you will then need these commands:
+
+* `avahi-browse`
+* `driverless`
+
+You can install them with the following packages:
+
+* `cups` or `cups-client`
+* `avahi-utils` (if using `avahi`)
+
+If you want to see the network packets exchanged between your computer and your printer, you will also need to install the `tcpdump` package.
+
+Here is an example command:
+
+```console
+$ sudo tcpdump -Xvni any "port 5353 or port 631 or port 9001"
+```
+
 ## References
 
 * https://wiki.archlinux.org/title/CUPS
