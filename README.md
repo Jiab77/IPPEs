@@ -32,3 +32,16 @@ But what will happens when the `PPD` files support will be removed? Owners of ol
 __HELL NO!!__
 
 That's why I've made this project, to allow end-users to be able to install their old printers without having to pass a complete night to debug everything and finally make it work without really knowing how 😅
+
+## References
+
+* https://wiki.archlinux.org/title/CUPS
+* https://wiki.archlinux.org/title/CUPS/Printer-specific_problems
+* https://wiki.archlinux.org/title/CUPS/Troubleshooting
+* https://github.com/OpenPrinting/cups-sharing/issues/4
+* https://wiki.debian.org/CUPSDriverlessPrinting
+* https://wiki.debian.org/CUPSIPPEverywhere
+* https://www.pwg.org/ipp/everywhere.html
+* https://github.com/apple/cups/issues/5088
+* https://wiki.archlinux.org/title/Avahi
+* https://github.com/lathiat/nss-mdns
