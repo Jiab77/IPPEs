@@ -16,7 +16,7 @@ $ lpadmin -p test -E -v ipp://[REDACTED] -m uld-samsung/Samsung_C48x_Series.ppd
 lpadmin: Printer drivers are deprecated and will stop working in a future version of CUPS.
 ```
 
-For the moment, the printer can be installed that way:
+For the moment, the printer can be installed with `lpadmin` as shown above and the result can be seen with `lpstat`:
 
 ```console
 $ lpstat -t | grep -i test
@@ -71,3 +71,7 @@ $ sudo tcpdump -Xvni any "port 5353 or port 631 or port 9001"
 * https://github.com/apple/cups/issues/5088
 * https://wiki.archlinux.org/title/Avahi
 * https://github.com/lathiat/nss-mdns
+
+## Author
+
+* __Jiab77__
